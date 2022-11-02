@@ -20,7 +20,7 @@ include_directories( include
 
 add_library(hello_library STATIC 
     src/hello.cpp
-    include/lib_study/hello.h
+    # include/lib_study/hello.h
 )
 
 target_include_directories(hello_library
